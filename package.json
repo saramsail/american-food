@@ -1,0 +1,23 @@
+{
+  "name": "american-food",
+  "version": "1.0.0",
+  "description": "learn bootstrap 5 with scss",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass --watch  scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "saram sial",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0"
+  }
+}

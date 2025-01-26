@@ -1,0 +1,83 @@
+@use'../custom' as *;
+
+
+.forms{
+    padding-bottom: 5rem;
+    background: url(../../images/form-img.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+
+
+}
+
+.form{
+    p{
+        font-family: "Antonio", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        color: #3d2514;
+    }
+    &--heading{
+        font-family: "Antonio", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        color: #3d2514 !important;
+    }
+    &--table{
+        padding-bottom: 10rem;
+    }
+}
+
+
+
+
+
+
+
+// .decor-img {
+//     position: absolute;
+//     z-index: 1;
+    
+//   }
+  
+//   .burger-left {
+//     top: -30px;
+//     left: -30px;
+  
+//   }
+  
+//   .bottle {
+//     bottom: 0;
+//     left: 100px;
+   
+//   }
+  
+//   .burger-right {
+//     top: 0;
+//     right: -50px;
+    
+//   }
+  
+//   /* Responsive Adjustments */
+//   @media (max-width: 768px) {
+//     .burger-left {
+//       top: -20px;
+//       left: -20px;
+      
+//     }
+  
+//     .bottle {
+//       left: 20px;
+//       bottom: -20px;
+      
+//     }
+  
+//     .burger-right {
+//       right: -30px;
+     
+//     }
+// }

@@ -1,0 +1,141 @@
+@use '../custom' as *;
+
+
+
+
+
+
+.intro-section{
+    background: url(../../images/intro-bg.png);
+    padding: 1rem 0 0 0;
+
+}
+
+.video-box {
+  position: relative;
+  display: inline-block;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video {
+    position: absolute;
+    bottom: 25%;  // Relative bottom position
+    left: 40%;    // Horizontally center
+    transform: translateX(-50%); // Accurate centering
+
+    img {
+      width: 5rem;         // Adjust size as needed
+      max-width: 80px;     // Control maximum width
+    }
+  }
+}
+
+  
+
+.text{
+    
+   text-transform: uppercase;
+    position: absolute;
+    width: 19rem;
+    height: 2rem;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    border: 2px solid $black;
+    border-style: dashed;
+}
+
+.display-2{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    &--intor{
+        display: inline-block;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.2rem;
+        text-shadow: 3px 3px 0 $gray-300;
+        font-size: 6rem;
+    }
+    &--description{
+        font-size: 3rem;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.2rem;
+        text-shadow: 3px 3px 0 $gray-300;
+        display: block;
+        margin-top: 1.2rem;
+   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .intro-section{
+//     background: url(../../images/intro-bg.png);
+//     padding: 2rem 0 0 0;
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .douted{
+//     border: 2px solid black;
+//     background-color: $secondary;
+//     border-style: dashed;
+//     text-align: center;
+//     vertical-align: center;
+    
+//     p{
+//         color: $black;
+//         text-transform: uppercase;
+//         font-family: 'Roboto', 'Arial', sans-serif;
+//         font-weight: 400;
+//         vertical-align: center;
+//         padding-top: 1.3rem;
+//     }
+// }
+
+// .text{
+//     h1{
+//         font-family: 'Impact', 'Arial Black', sans-serif;
+//         font-weight: 900;
+//         text-transform: uppercase;
+//         letter-spacing: 0.2rem;
+//         text-shadow: 4px 4px 0 $gray-400;
+//     }
+//     h2{
+//         font-family: 'Impact', 'Arial Black', sans-serif;
+//         font-weight: 600;
+//         font-size: 3rem;
+//         text-transform: uppercase;
+//         letter-spacing: 0.2rem;
+//     }
+// }

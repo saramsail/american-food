@@ -1,0 +1,32 @@
+@use '../custom' as *;
+
+
+.chooes-info{
+    .caption{
+        h4{
+            font-family: "Antonio", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #3d2514;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+        .btns{
+            font-family: "Antonio", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            padding-left: 0.7rem;
+            padding-right: 0.7rem;
+            font-style: normal;
+            &:hover{
+                color: $primary;
+                letter-spacing: 0.2rem;
+                font-weight: 600;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}

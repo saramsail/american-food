@@ -1,0 +1,42 @@
+@use '../custom' as *;
+
+.footer{
+    background-image: url('../../images/footer.png');
+    &--icon{
+        padding-top: 5rem;
+        button{
+            background-color: $white;
+            border: none;
+            &:hover{
+                background-color: $secondary !important;
+            }
+            i{
+                font-size: 1rem;
+                color: $black;
+                border-radius: 50%;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+    &--left{
+        img{
+            padding-top: 4rem;
+            padding-bottom: 3rem;
+        }
+        p{
+            padding-bottom: 5rem;
+        }
+    }
+    .address{
+        i{
+            font-size: 2rem;
+            vertical-align: center;
+            padding-top: 0.5rem ;
+        }
+        p{
+            vertical-align: top;
+        }
+    }
+}

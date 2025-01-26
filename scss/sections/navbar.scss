@@ -1,0 +1,32 @@
+@use '../custom' as *;
+
+
+.menu{
+    background: url(../../images/intro-bg.png);
+    padding: 2rem;
+}
+
+.express-delivery{
+    padding-top: 1rem;
+    span{
+       font-family: "Antonio", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 600;
+       font-style: normal;
+    }
+}
+
+.nav-item{
+    padding-right: 2rem;
+    a{
+        text-transform: uppercase;
+        font-family: "Antonio", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        &:hover{
+            color: $secondary;
+            transform: scale(1.30);
+        }
+    }
+}

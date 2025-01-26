@@ -1,0 +1,60 @@
+@use '../custom' as *;
+
+
+.testimonials{
+    &--upper{
+        font-family: "Antonio", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.6rem;
+        display: block;
+    }
+    &--lower{
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3rem;
+        display: block;
+        text-transform: uppercase;
+        color: #3d2514;
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+/* Carousel Indicators ko left corner pe position karna */
+.carousel-indicators {
+    justify-content: flex-start; /* Indicators ko left align karne ke liye */
+    margin-left: 4rem;           /* Thoda space dene ke liye */
+                  /* Indicators ki vertical position adjust karne ke liye */
+  }
+/* Indicators ko circles banane ke liye */
+.carousel-indicators {
+    .btns{
+        width: 15px;               /* Fixed width */
+        height: 15px;              /* Fixed height */
+        background-color: #ddd;    /* Default grey color */
+        border-radius: 50%;        /* Perfect circle banane ke liye */
+        border: none;              /* Border remove karne ke liye */
+        margin-right: 8px;         /* Indicators ke beech gap */
+        opacity: 1; 
+        &:focus{
+            background-color: #f3b600 !important;
+        }
+        &:hover{
+            background-color: rgba($primary, 0.5);
+        }
+    }   /* Solid color ke liye */ 
+}
+  
+//   /* Active indicator ke liye orange color */
+//   .carousel-indicators button.active {
+//     background-color: #f5b800; /* Orange color for active dot */
+//   }
+  
+  
+  
